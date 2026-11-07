@@ -41,7 +41,7 @@ class HashMap
 
   def get(key)
     index = hash(key)
-
+    return nil unless @storage[index]
     @storage[index].each do |el|
       return el[1] if el[0] == key
     end
@@ -114,6 +114,8 @@ class HashMap
   end
 
 end
+
+
 
 
 
