@@ -50,7 +50,7 @@ class HashMap
   end
 
   def has?(key)
-    return nil if get(key) == nil
+    return false if get(key) == nil
     true
   end
 
@@ -114,3 +114,6 @@ class HashMap
   end
 
 end
+
+
+
