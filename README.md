@@ -95,18 +95,18 @@ hashmap.length # return 0
 return all keys in an array
 
 ```ruby
-hashmap.new
+hashmap = HashMap.new
 hashmap.set('key1', 'value1')
 hashmap.set('key2', 'value1')
 hashmap.set('key3', 'value1')
 
-hashmap.keys # returns []
+hashmap.keys # returns ['key1', 'key2', 'key3']
 ```
 ### #values
 return all values in an array
 
 ```ruby
-hashmap.new
+hashmap = HashMap.new
 hashmap.set('key1', 'value1')
 hashmap.set('key2', 'value1')
 hashmap.set('key3', 'value1')
