@@ -6,7 +6,7 @@ The hashmap can be made by
 ```ruby
 hashmap = HashMap.new
 ```
-## The hashmap hash the following methods
+## The hashmap has the following methods
 
 ### #set(key, value) 
 allow to enter a entries
@@ -111,7 +111,7 @@ hashmap.set('key1', 'value1')
 hashmap.set('key2', 'value2')
 hashmap.set('key3', 'value3')
 
-hashmap.values # returns []
+hashmap.values # returns ['value1', 'value2', 'value3']
 ```
 
 
