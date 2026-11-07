@@ -1,5 +1,5 @@
 class HashMap
-  attr_reader :storage, :length, :capacity
+  attr_reader :length
   def initialize(load_factor = 0.75, capacity = 16)
     @load_factor = load_factor
     @capacity = capacity
