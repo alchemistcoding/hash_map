@@ -97,8 +97,8 @@ return all keys in an array
 ```ruby
 hashmap = HashMap.new
 hashmap.set('key1', 'value1')
-hashmap.set('key2', 'value1')
-hashmap.set('key3', 'value1')
+hashmap.set('key2', 'value2')
+hashmap.set('key3', 'value3')
 
 hashmap.keys # returns ['key1', 'key2', 'key3']
 ```
@@ -108,8 +108,8 @@ return all values in an array
 ```ruby
 hashmap = HashMap.new
 hashmap.set('key1', 'value1')
-hashmap.set('key2', 'value1')
-hashmap.set('key3', 'value1')
+hashmap.set('key2', 'value2')
+hashmap.set('key3', 'value3')
 
 hashmap.values # returns []
 ```
